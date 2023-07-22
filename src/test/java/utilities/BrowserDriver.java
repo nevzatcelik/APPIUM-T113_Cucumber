@@ -29,7 +29,7 @@ public class BrowserDriver {
             caps.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
             caps.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
             caps.setCapability(MobileCapabilityType.NO_RESET,false);
-          //  caps.setCapability("chromedriverExecutable","C:\\Users\\ahmet\\IdeaProjects\\T-108AppiumCucumber\\Driver\\chromedriver.exe");
+           // caps.setCapability("chromedriverExecutable","C:\\Users\\ahmet\\IdeaProjects\\APPIUM_T-113_Cucumber\\driver\\chromedriver.exe");
             caps.setCapability(MobileCapabilityType.BROWSER_NAME,"chrome"); // kullanacak oldugumuz mobil browser tanimi
 
             if (ConfigReader.getProperty("platformName").equals("Android")) {

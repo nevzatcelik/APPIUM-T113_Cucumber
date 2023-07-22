@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
                 "json:target/cucumber.json",},
         features = "src/test/resources/features",
         glue = "stepdefinitions",
-        tags = "@bd",
+        tags = "@qd",
         dryRun =false
         // eger features dosyamizin icerisinde eksik bir adim varsa o adimin methpodunu olusturmasi icin dryRun i true yapariz
         // Eger eksik adim varsa true iken bize adimlari verecektir. Eger ki eksik adim yoksa bize test passed.FAKAT BU SADECE EKSIK ADIM YOK DEMEKTIR TESTIN GERCEK ANLAMDA PASSED OLDUGU ANLAMINA GELMEZ
